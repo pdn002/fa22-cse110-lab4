@@ -30,3 +30,5 @@
     - false: true becomes integer 1 and 1 not equal to 2
     - true: boolean function evaluate 2 as true as true strictly equal 2
 15. === is strict equality so it evaluate each side with any type conversion. So an integer can never equal a string with strict equality but i can with normal equality.
+16. in part2-question16.js
+17. 
