@@ -32,4 +32,5 @@
 15. === is strict equality so it evaluate each side with any type conversion. So an integer can never equal a string with strict equality but i can with normal equality.
 16. in part2-question16.js
 17. Function will return [2,4,6]. The first line to be excuted is line 13 since everything else is a function declaration so far. The input is a list and the function doSomething. Inside the function the list is stored in array and the function doSomething is stored in callback. Inside the for loop the function is called on each index of the array. This will effectively double each value in the input array and the ouput will be the array of these new doubled values.
-18. 
+18. in part2-question18.js
+19. 1 4 3 2
