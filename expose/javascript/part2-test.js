@@ -16,6 +16,7 @@ function discountPrices(prices, discount){
 
 console.log(discountPrices([100, 200, 300], 0.5));
 */
+/*
 let student = {
     name: 'Sarah',
     major: 'Computer Science',
@@ -29,3 +30,17 @@ let student = {
 };
 
 console.log(student["courseLoad"][0]);
+*/
+function modifyArray(array, callback){
+    const newArr = [];
+    for (let i = 0; i < array.length; i++){
+        newArr.push(callback(array[i]));
+    }
+    return newArr
+}
+
+function doSomething(num) {
+    return num * 2;
+}
+
+console.log(modifyArray([1,2,3],doSomething));
