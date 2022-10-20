@@ -15,4 +15,18 @@
     - ```student["greeting"]();```
     - ```student["Favorite Teacher"]["name"]```
     - ```student["courseLoad"][0]```
-13. 
+13. - 32: integer maps to string and + becomes string cancatanation
+    - 1: string maps to integer and - becomes subtraction
+    - 3: null maps to integer 0 and + becomes addition
+    - '3null': null maps to a string and + becomes string cancatanation
+    - 4: true maps to integer 1 and + becomes addition
+    - 0: false and null both map to integer 0 and + becomes addition
+    - '3undefined': undefined gets maped as string and + becomes cancatanation
+    - NaN: undefined maps to NaN and so entire expression evaluates to NaN
+14. - true: '2' becomes integer 2 and 2 greater than 1
+    - false: compares first character in string and 2 not greater than 1
+    - true: '2' becomes integer 2 and 2 equal to 2
+    - false: non type conversion and so intger not eual to string
+    - false: true becomes integer 1 and 1 not equal to 2
+    - true: boolean function evaluate 2 as true as true strictly equal 2
+15. === is strict equality so it evaluate each side with any type conversion. So an integer can never equal a string with strict equality but i can with normal equality.
