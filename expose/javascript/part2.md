@@ -10,4 +10,9 @@
 9. Error. The variable i has block scope since it is initialized using let. Line 12 is not in the same block as the variable i so an error is caused.
 10. Line 12 will print out 3 which is the length of the pricess list. The variable length can be accessed because it has block scope and line 12 is in the same block. Length is also never changed after initialization so there is no error there either.
 11. The function returns [ 50, 100, 150 ]. The function return the contents inside the variable discounted. Discounted holds a list of prices after they are discounted. The function is able return this variable because it is initialized using const which has block scope and the return statement on line 18 is still in the same block. <br>Interestingly, the list contents of discounted have been changed despite being initialized with the const keyword. My assumption of why this is possible is that the variable discount actually holds a memory address and that memory adress is never changed when new elements are added to the list.
-12. 
+12. - ```student["name"]```
+    - ```student["Grad Year"]```
+    - ```student["greeting"]();```
+    - ```student["Favorite Teacher"]["name"]```
+    - ```student["courseLoad"][0]```
+13. 
